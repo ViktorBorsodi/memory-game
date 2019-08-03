@@ -1,0 +1,18 @@
+.Tile {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5vh;
+    border: 5px solid black;
+    margin: 1vh;
+}
+
+.Tile:hover {
+    cursor: pointer;
+}
+
+.Game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1vh 2vh;
+}
